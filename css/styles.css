@@ -1,0 +1,322 @@
+/* GLOBAL / RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color:#fffef6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background-color: #ffd93b;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+/* HEADER AND NAV */
+
+.main-header {
+background-color: white;
+border-bottom: 1px solid #e2e2e2;
+
+}
+
+.main-header-logo img {
+    height: 140px;
+    width: auto;
+
+}
+
+.main-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5% 0;
+}
+
+.main-nav ul{
+    list-style: none;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    font-size: 105%;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+background-color: #111;
+color: #eee;
+}
+
+
+.footer-logo img {
+    height: 95px;
+    width: auto;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 15px;
+
+} 
+
+.footer-socials ul{
+    list-style: none;
+    
+}
+
+.footer-socials li {
+    margin: 4px;
+
+}
+
+.footer-socials a {
+    color: #ffd93b;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.footer-socials a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: .8em;
+    padding: 8px;
+    border-top: 1px solid #333;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #e2e2e2;
+
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* HOME PAGE */
+
+/* HERO IMG AND TEXT */
+
+.hero {
+    position: relative;
+
+}
+
+.hero-image {
+    width: 100%;
+}
+
+
+
+.hero-text {
+    font-size: larger;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  max-width: 420px;
+  color: white;
+
+  
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, .20);
+    position: absolute;
+    inset: 0;
+}
+
+
+
+/* MISSION */
+
+.mission {
+    padding: 40px;
+}
+
+.mission-box {
+    background-color: #ffffff;
+   border: 1px solid #e2e2e2;
+   border-radius: 10px;
+   padding: 25px 20px;
+   text-align: center
+}
+
+
+/* PHOTO + INFO SECTION 3*/
+
+.photo-info {
+    padding: 40px ;
+}
+
+.photo-info-inner {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.photo-info-image, .photo-info-text {
+    flex: 1;
+}
+
+.photo-info-img img {
+    max-width: 600px;
+
+}
+
+/* INFO COLUMNS SECTION 4 */
+
+.info-columns{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff9dd;
+}
+.info-columns h2{
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.column {
+    border: 1px solid #e2e2e2;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.column h3{
+    color: #7f600a;
+
+}
+
+
+/* GET INVOLVED */
+
+
+.page-intro {
+  padding: 40px 0 20px;
+}
+
+.page-intro h1 {
+  text-align: center;
+}
+
+.page-intro p {
+  max-width: 600px;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+/* table of ways to help */
+.table-wrapper {
+  padding: 20px 0 40px;
+}
+
+.ways-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.ways-table th,
+.ways-table td {
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+  text-align: left;
+}
+
+.ways-table th {
+  background-color: #fff9dd;
+}
+
+
+/* FORM */
+
+#form-section {
+  padding: 40px 0;
+}
+
+.form-grid {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffd93b;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #f4c32f;
+}
